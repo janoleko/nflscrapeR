@@ -1,0 +1,43 @@
+Package: nflscrapR
+Title: Compiling the NFL Play-by-Play API for easy use in R
+Version: 1.8.3
+Authors@R: c(
+    person("Maksim", "Horowitz", role = c("aut", "cre"), email = "maksim.horowitz@gmail.com"),
+		person("Ron", "Yurko", role = c("aut"), email = "ryurko@stat.cmu.edu"),
+		person("Samuel", "Ventura", role = c("aut"), email = "samventura22@gmail.com"),
+		person("Rishav", "Dutta", role = c("ctb"), email = "rishavdutta.wa@gmail.com"))
+Maintainer: Ron Yurko <ryurko@stat.cmu.edu>
+Description: This package allows data driven sports enthusiasts to use the NFL JSON API data
+    to perform detailed analysis at game, season, and player levels. The functions within
+    this package help parse and clean the data from NFL.com for R users. This package was
+    built to enhance advanced sports analytics research specifically for American football
+    with the hopes of developing metrics and insights that could potentially be useful for
+    professional NFL teams as well as the public.
+Depends: R (>= 3.5.0),
+         nnet (>= 7.3.12),
+    magrittr
+Imports: RJSONIO (>= 1.3.0),
+         RCurl (>= 1.95.4.11),
+         stringr (>= 1.3.1),
+         lubridate (>= 1.7.4),
+         dplyr (>= 0.7.7),
+         reshape (>= 0.8.7),
+         reshape2 (>= 1.4.3),
+         scrapeR (>= 0.1.6),
+         DT (>= 0.4),
+         gridExtra (>= 2.3),
+         mgcv (>= 1.8.23),
+         rvest (>= 0.3.2),
+         purrr (>= 0.2.5),
+         xml2 (>= 1.2.0),
+         assertthat (>= 0.2.0),
+         tidyr (>= 0.8.1)
+Suggests: testthat,
+          knitr,
+          rmarkdown
+License: CC0
+URL: https://github.com/maksimhorowitz/nflscrapR
+BugReports: https://github.com/maksimhorowitz/nflscrapR/issues
+LazyData: true
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
